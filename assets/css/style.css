@@ -1,16 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 section {
     height: 500px;
-    background-color: white;
+    background-color: yellow;
     border: solid black 1px;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+    font-size: 40px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+}
+
+.hero {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 100vh;
 }
 
 nav {
@@ -22,7 +60,7 @@ nav {
     left: 0;
     width: 100%;
     transition: 0.6s;
-    padding: 35px;
+    padding: 25px;
     background-color: rgb(255, 255, 255);
    }
 
@@ -54,16 +92,12 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
-    /*justify-content: center;
-    align-items: center; */
 }
 
-nav /*ul*/ li {
-    /*display: flex;*/
-    /*position: relative;*/
+nav li {
     list-style: none;
 }
-
+    
 nav ul li a {
     display: block;
     position: relative;
@@ -75,16 +109,9 @@ nav ul li a {
     transition: 0.6s;
 }
 
-nav a:hover {
+ul a:hover {
     transition: 0.4s;
     color: aqua;
-}
-
-.hero-section {
-    display: flex;
-    margin-left: 10px;
-    margin-top: 200px;
-    font-size: 30px;
 }
 
 .toggle_button {
@@ -104,6 +131,9 @@ nav a:hover {
     background-color: black;
     border-radius: 10px;
 }
+
+
+
 
 @media (max-width: 1000px) {
         .toggle_button {
@@ -160,4 +190,3 @@ nav a:hover {
     }
 }
 
-    
