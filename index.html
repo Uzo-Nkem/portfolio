@@ -4,44 +4,212 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/style.css">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">-->
     <title>Uzo Nkemakolam | Full Stack Software Developer</title>
+    
 </head>
 <body>
     <section class="hero">
-        <nav>
-        <div><a href="#" class="logo">uzo nkemakolam</a>
-            <a href="#" class="initial">un</a>
-        </div>
-            <a href="#" class="toggle_button">
+       <nav class="navbar sticky">
+            <a href="#" class="logo">un</a>
+            <a class="toggle_button">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </a>
-           <ul>
-                <li><a class="about" href="#">.about()</a></li>
-                <li><a class="project" href="#">.project()</a></li>
-                <li><a class="skills" href="#">.skills()</a></li>
-                <li><a class="contact" href="#">.contact()</a></li>
+            <ul class="nav-links">
+                <li><a class="links" href="#about">.about()</a></li>
+                <li><a class="links" href="#skills">.skills()</a></li>
+                <li><a class="links" href="#project">.project()</a></li>
+                <li><a class="links" href="#contact">.contact()</a></li>
             </ul>
         </nav>
-       <div class="hero-section">
-        <div class="hero-text">
-        <h1>Hi, my name is Uzo <span>&#128075;&#127999;</span></h1>
-        <p>Software Developer</p>
+        <div class="hero-area" id="hero">
+            <div class="hero-text">
+            <h1> UZO NKEMAKOLAM </h1> 
+            <p>Software Developer</p>
+            <div class="button-container"><a href="#" class="button">RESUME</a></div>
+        </div>
+        <div class="arrow-container"><a href="#" class="scroll-down"></a>
+        <div class="arrows"></div>
+        <div class="arrows"></div>
+        <div class="arrows"></div>
         </div>
         </div>
-        
     </section>
-    <section class="aboutMe"></section>
-    <section class="skills"></section>
-    <section class="projects"></section>
-    <section class="time-line"></section>
-    <footer class="contactMe"></footer>
+    <section class="sub-section" id="about">
+      <div class="aboutCard">
+        <div class="card-sidebar">
+            <img class="selfie" src="/img/6D724CF6-FEC9-4D29-AFBD-9578B22B5C99.jpg" alt="">
+            
+        </div>
+       <div class="card-main">
+        <h2 class="card-title">About Me</h2>
+        <p  class="profile-body"> Hi, my name is Uzo. I'm an enthusiastic software developer and mental healthcare professional currently working and living within the London area.</p> 
+        <br>
+        <p>My coding journey started in early 2022, when I decided that a transition from the world of mental health to that of technology was for me.</p>
+        <br>
+        <p>Since then, I have been on an exciting journey of learning and creating, which has only reinforced my decision to transition into this field.  What started as a hobby fuelled by curiosity quickly became a passion which I found had a complete balance of creativity and problem-solving.</p>
+        <br>
+        <p>I am currently seeking a junior developer role within the field of software development, where I can showcase my knowledge and to add value to the industry. You can reach me using the <a href="#contact"><span class="contact-link">contact form</span></a> below.
+        </p>
+       </div> 
+      </div>
+    </section>
+    <section class="sub-section-skills" id="skills">
+        <div class="skillCard">
+            <div class="title">
+                <h2>Skills</h2>
+            </div>
+            <div class="skillContainer">
+                <div class="skill-box">
+                         <div class="skill-item">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                   alt="HTML Badge"/>
+                <h3>HTML 5</h3>
+                    </div>
+                </div>
+                    <div class="skill-box">
+                <div class="skill-item">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
+                    alt="CSS Badge"/>
+                <h3>CSS 3</h3>
+                </div>
+            </div>
+                <div class="skill-box">
+                <div class="skill-item">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS Badge"/>
+                <h3>JavaScript</h3>
+                </div>
+            </div>
+                <div class="skill-box">
+                <div class="skill-item">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Boostrap Badge"/>
+                    <h3>Bootstrap</h3>
+                    </div>
+                </div>
+                <div class="skill-box">
+                <div class="skill-item"> 
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB Badge"/>
+                <h3>MongoDB</h3>
+                </div>
+            </div>
+                <div class="skill-box">
+                <div class="skill-item"> 
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Badge"/>
+                <h3>MySQL</h3>
+                </div>  
+            </div>
+                <div class="skill-box">
+                <div class="skill-item">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Badge" />
+                <h3>Python</h3>
+                </div>
+            </div>
+            </div>
+        </div> 
+    </section>
+    <section class="sub-section-projects" id="project">
+        <div class="project-section-container">
+        <div class="subTitle">
+        <h2 >Projects</h2>
+        </div>
+        <div class="project-container">
+        <div class="project-card">
+            <div class="project">
+                <img class="card-img" src="/img/jason-dent-3wPJxh-piRw-unsplash.jpg" alt="picture of a vault">
+                <div class="card-content">
+                    <h1 class="project-card-title">Password Generator</h1>
+                    <span class="separator">______________</span>
+                    <p class="card-text">
+                        A randomised password generator that can create a password of upto 30 characters using numbers, letters and symbols.
+                    </p>
+                    <div class="card-tech">
+                        <span class="separator">______________</span>
+                        <h2 class="card-subtitle">Tech Stack</h2>
+                        <div class="projectIcon-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"  alt="HTML 5 icon" class="project-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS 3 icon" class="project-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript icon" class="project-icon">
+                    </div>
+                    <a class="project-link" href="/pages/projects/password_generator/index.html">View Project</a>
+                    <a class="github-project-icon" href="https://github.com/Uzo-Nkem/password_generator.git"><svg xmlns="http://www.w3.org/2000/svg" fill="#F5F5F5" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project">
+                <img class="card-img" src="" alt="">
+                <div class="card-content">
+                    <h1 class="project-card-title">Project 2</h1>
+                    <span class="separator">______________</span>
+                    <p class="card-text">
+                        [WIP] 
+                    </p>
+                    <div class="card-tech">
+                        <span class="separator">______________</span>
+                        <h2 class="card-subtitle">Tech Stack</h2>
+                        <div class="projectIcon-container">
+                        <img src="" alt="" class="project-icon">
+                        <img src="" alt="" class="project-icon">
+                        <img src="" alt="" class="project-icon">
+                    </div>
+                    <a class="project-link" href="">View Project</a>
+                    <a class="github-project-icon" href="https://github.com/Uzo-Nkem"> <svg xmlns="http://www.w3.org/2000/svg" fill="#F5F5F5" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project">
+                <img class="card-img" src="" alt="">
+                <div class="card-content">
+                    <h1 class="project-card-title">Project 3</h1>
+                    <span class="separator">______________</span>
+                    <p class="card-text">
+                        [WIP]
+                    </p>
+                    <div class="card-tech">
+                        <span class="separator">______________</span>
+                        <h2 class="card-subtitle">Tech Stack</h2>
+                        <div class="projectIcon-container">
+                        <img src="" alt="" class="project-icon">
+                        <img src="" alt="" class="project-icon">
+                        <img src="" alt="" class="project-icon">
+                    </div>
+                    <a class="project-link" href="">View Project</a>
+                    <a class="github-project-icon" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="#f5f5f5" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+    <footer class="contact" id="contact">
+            <div class="contact-form-title">
+                <h1>contact <span style="color:#FC814A ;">me</span></h1>
+            </div>
+        <div class="contact-form">
+            <form action="https://formsubmit.co/4a92d0f0a51b5a8e9ab3ef834985e2af" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                <input type="text" name="subject" placeholder="Write a Subject" required>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..." required></textarea>
+                    
+                <input style="color:#FC814A" type="submit" name="" value="Send" class="send-btn">
+            </form>
+        
+        <div class="socials">
+            <a class="social" href="https://www.linkedin.com/in/uzo-nkemakolam/"> <svg xmlns="http://www.w3.org/2000/svg" fill="#FC814A" width="24" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg></a>
+            <a class="social" href="https://github.com/Uzo-Nkem"> <svg xmlns="http://www.w3.org/2000/svg" fill="#FC814A" width="24" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
 
+        </div>
+        </div>
+    </footer>
 
-
-    
-    <script src="/assets/js/script.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
